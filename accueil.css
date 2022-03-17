@@ -104,12 +104,66 @@ h3{
 #prestations h4{
     font-family: 'PT Sans Caption', sans-serif;
     text-align: center;
+    font-size: 1.8em;
+    margin: 15px;
+    font-weight: 300;
 }
 .imagesPrestations1 img{
     width: 700px;
     height: 400px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px 1px hsla(0, 0%, 0%, 0.5); 
 }
 .imagesPrestations img{
     width: 500px;
     height: 400px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px 1px hsla(0, 0%, 0%, 0.5); 
+}
+.imagesPrestations img:hover{
+    opacity: 0.7;
+    transform: scale(1.02);
+    transition: 0.6s ease-in-out;
+}
+.imagesPrestations1 img:hover{
+    opacity: 0.7;
+    transform: scale(1.02);
+    transition: 0.6s ease-in-out;
+}
+
+/* EVENEMENTS */
+
+#evenements{
+    height: 1400px;
+    background-color: #ffecad;
+    padding: 1px 2%;
+}
+#tourisme h2{
+    padding-top: 60px;
+}
+#stages{
+    background: url(images/stage.jpg) 50% 50%;
+}
+#show{
+    background: url(images/show.jpg) 50% 50%;
+}
+#live{
+    background: url(images/live.jpg) no-repeat;
+
+}
+#evenements li{
+    margin: 65px 100px 0 100px;
+    width: 600px;
+    height: 300px;
+    max-width: 600px;
+    float: none;
+    box-shadow: 5px 5px 3px 1px hsla(0, 0%, 0%, 0.5);
+    display: flex;
+    border-radius: 10px;
+}
+#evenements p{
+    height: 45px;
+    width: 235px;
+    background-color: #FFFAE1;
+    margin: 50px -180px 0 0;
 }
