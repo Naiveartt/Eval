@@ -156,14 +156,94 @@ h3{
     width: 600px;
     height: 300px;
     max-width: 600px;
-    float: none;
+    font-family: 'PT Sans Caption', sans-serif;
+    float: left; 
     box-shadow: 5px 5px 3px 1px hsla(0, 0%, 0%, 0.5);
-    display: flex;
+    /* display: flex; */
     border-radius: 10px;
 }
 #evenements p{
     height: 45px;
-    width: 235px;
-    background-color: #FFFAE1;
+    width: 200px;
+    background-color: hsl(50, 100%, 94%, 50%);
+    float: right;
     margin: 50px -180px 0 0;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 15px;
+    box-shadow: 3px 3px 1px 1px hsl(31, 74%, 57%, 50%);
+}
+#evenements #show{
+    float: right;
+}
+#show p{
+    float: left;
+    background-color: ;
+    margin-left: -180px;
+    box-shadow: -3px 3px 1px 1px hsl(31, 74%, 57%, 50%);
+}
+
+/* FOOTER */
+
+footer{
+    background-color: #e29541;
+    color: hsl(34, 78%, 91%);
+    padding: 20px 0 10px 0;
+    text-align: center;
+}
+form{
+    margin: 0 auto;
+    max-width: 900px;
+}
+input, textarea, button{
+    border: none;
+    width: 55%;
+    padding: 15px 10px;
+    margin: 1px 0;
+    font-size: 1.2;
+    font-family: 'PT Sans', sans-serif;
+    border-radius: 8px;
+}
+textarea{
+    height: 120px;
+}
+button{
+    font-size: 1.5em;
+    background-color: #ffecad;
+}
+button:hover{
+    background-color: #ac642e;
+    color: #ffecad;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+#deuxiemeTrait{
+    height: 1px;
+    width: 75%;
+    background-color: #ffecad;
+    margin: 60px auto;
+}
+#copyrightEtIcons{
+    display: flex;
+    margin-bottom: 20px;
+    padding: 0 10%;
+}
+#copyright{
+    width: 50%;
+    text-align: left;
+    color: #ffecad;
+}
+#icons{
+    width: 50%;
+    text-align: right;
+}
+#icons a{
+    display: inline-block;
+    padding: 0 15px;
+    font-size: 1.3em;
+    color: #ffecad;
+}
+#icons a:hover{
+    transform: scale(1.5);
+    transition: 0.1s;
 }
